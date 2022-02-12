@@ -1,3 +1,63 @@
-.fond {
+body {
+    margin: 0;
+}
+
+.hero {
     background-color: #FF6347 ;
+    text-align: center;
+}
+
+
+.logo {
+    padding: 20px;
+}
+
+h1 {
+    color: #ffffff;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.slogan {
+    text-align: center;
+}
+
+.slogan p {
+    font-size: 2em;
+}
+
+.liens {
+    text-align: center;
+}
+.liens a {
+    background-color: darkorchid;
+    border: 3px solid #ffffff;
+    padding: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.contenu {
+    background-image: url('fond.jpg');
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contenu div {
+    background-color: goldenrod;
+    width: 45%;
+    text-align: center;
+    border-radius: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 3px solid #ffffff;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+.newsletter {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
