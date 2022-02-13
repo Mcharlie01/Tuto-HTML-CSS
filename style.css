@@ -40,13 +40,13 @@ h1 {
 
 .contenu {
     background-image: url('fond.jpg');
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .contenu div {
     background-color: goldenrod;
-    width: 45%;
+    width: 80%;
     text-align: center;
     border-radius: 30px;
     margin-right: auto;
@@ -60,4 +60,41 @@ h1 {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.5em;
+    font-variant: small-caps;
+    color: chocolate;
+    margin: 10px;
+}
+
+nav a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+    .logo { 
+        width: 30%;
+    }
+
+    .contenu {
+        display: flex;
+    }
+
+    .contenu div {
+        width: 35%;
+    }
 }
